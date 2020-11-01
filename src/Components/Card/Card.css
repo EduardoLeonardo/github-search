@@ -5,4 +5,5 @@
     overflow: hidden;
     background: #f4f4f8;
     min-width: 300px;
+    align-items: center;
 }
