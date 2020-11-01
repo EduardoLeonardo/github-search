@@ -1,11 +1,11 @@
 import React from 'react'
 import './Avatar.css'
 
-const Avatar = () => {
+const Avatar = (props) => {
     return (
-        <div>
-            aqui é o avatar 
-        </div>
+        <>
+            <img alt="avatar" {...props}/>
+        </>
     )
 }
 
