@@ -7,3 +7,7 @@
     min-width: 300px;
     align-items: center;
 }
+
+a > img:hover {
+    border: 2px solid #d4e2f6;
+}
