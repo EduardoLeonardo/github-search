@@ -5,7 +5,7 @@ import "./Card.css";
 const Card = ({ avatar_url: avatar, login: name, html_url: perfil }) => {
   return (
     <div className="card">
-      <a href={perfil} target="_blank">
+      <a href={perfil} target="_blank" rel="noreferrer">
         <Avatar src={avatar} width={100} style={{ borderRadius: 10 }} tar />
       </a>
       <h4>{name}</h4>
